@@ -4,13 +4,15 @@ import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
-  variable: "--font-headline"
+  variable: "--font-headline",
+  fallback: ["Segoe UI", "Helvetica Neue", "Arial", "sans-serif"]
 });
 
 const ibmPlexMono = IBM_Plex_Mono({
   subsets: ["latin"],
   variable: "--font-mono",
-  weight: ["400", "500"]
+  weight: ["400", "500"],
+  fallback: ["SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "monospace"]
 });
 
 export const metadata: Metadata = {

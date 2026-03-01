@@ -1,4 +1,5 @@
-import { ConsoleEasterEgg } from "@/components/console-easter-egg";
+import { CornerEasterEgg } from "@/components/corner-easter-egg";
+import { DigitalTwinChat } from "@/components/digital-twin-chat";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 const careerHighlights = [
@@ -139,9 +140,13 @@ const bootLines = [
 ];
 
 export default function Home() {
+  const currentYear = new Date().getFullYear();
+  const yearsOfImpact = Math.max(1, currentYear - 2023);
+
   return (
     <main className="site-shell">
-      <ConsoleEasterEgg />
+      <CornerEasterEgg />
+      <DigitalTwinChat />
       <div className="noise-layer" />
       <section className="hero section">
         <div className="terminal-window">
@@ -195,7 +200,7 @@ export default function Home() {
         <div className="meta-strip">
           <span>Bengaluru, India</span>
           <span>Java • Spring Boot • AWS • Kafka</span>
-          <span>3 years of backend engineering impact</span>
+          <span>{yearsOfImpact} years of backend engineering impact</span>
         </div>
       </section>
 
