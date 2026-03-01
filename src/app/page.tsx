@@ -224,7 +224,7 @@ export default function Home() {
           <h2>LLMs and MCP</h2>
           <p className="focus-copy">
             As a backend developer, I spend most of my time building APIs and systems that need to work reliably in
-            production. LLMs are now being used in real products, so I want to understand how to support them
+            production. LLMs are now being used in real products, so I aim to understand how to support them
             properly. I do not want to treat them as a black box API call. I want to know how they fit into backend
             systems and how to run them safely at scale.
           </p>
