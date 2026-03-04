@@ -178,7 +178,7 @@ export default function Home() {
           I build resilient, high-scale backend systems that perform under pressure and stay reliable in the
           real world.
         </p>
-        <div className="hero-actions">
+         <div className="hero-actions">
           <a className="btn primary" href="mailto:kartiks2001@gmail.com">
             Contact Me
           </a>
@@ -195,6 +195,14 @@ export default function Home() {
           </a>
           <a className="btn ghost" href="https://leetcode.com/u/kartiks2001/" target="_blank" rel="noreferrer">
             <span className="link-icon">lc</span> LeetCode
+          </a>
+          <a
+            className="btn ghost"
+            href="https://drive.google.com/file/d/1bWSjIKU27L6H0HDgfLopZ5fZ9Lzm5IUf/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="link-icon">📄</span> Resume
           </a>
         </div>
         <div className="meta-strip">
@@ -325,11 +333,11 @@ export default function Home() {
           </a>
           <a
             className="btn ghost"
-            href="https://drive.google.com/file/d/1bWSjIKU27L6H0HDgfLopZ5fZ9Lzm5IUf/view?usp=sharing"
+            href="https://www.linkedin.com/in/kartik-sharma-"
             target="_blank"
             rel="noreferrer"
           >
-            View Resume PDF
+            <span className="link-icon">in</span> Message on LinkedIn
           </a>
         </div>
       </section>
